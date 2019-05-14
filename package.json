@@ -1,0 +1,19 @@
+{
+  "name": "webpack_project",
+  "version": "1.0.0",
+  "description": "Studying webpack",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/bundle.js --output-filename ./dist/app.js",
+    "build": "webpack"
+  },
+  "author": "Dorela Sinjari",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1"
+  }
+}
