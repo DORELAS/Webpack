@@ -10,7 +10,7 @@
   "author": "Dorela Sinjari",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.4.0"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
